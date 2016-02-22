@@ -12,7 +12,7 @@ background: linear-gradient(135deg,  #d8e0de 2%,#aebfbc 19%,#99afab 29%,#829d98 
 #string{
   width:30%;
   height: 40px;
-
+ text-align:center;
  margin-top: 20%;
   border-radius: 10px;
   font-size: 20px;
@@ -24,7 +24,7 @@ background: linear-gradient(135deg,  #d8e0de 2%,#aebfbc 19%,#99afab 29%,#829d98 
 {
   width: 100px;
   height: 50px;
- border-radius: 5px;
+ border-radius: 8px;
  background-color:#F0ECEC;
 
 }
