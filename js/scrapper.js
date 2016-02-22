@@ -10,7 +10,7 @@ function load_links() {
             $retrieved_html = $('<form>' + res+ '</form>');
             $.each($retrieved_html.find('a[href]'), function(idx,item) {
                 lnk = $(item).attr("href");
-                $('<option>' + lnk + '</option>').appendTo($('#links'));
+                $('<li>' + lnk + '</li>').appendTo($('#links'));
             });
       },
         error: function(status) {
