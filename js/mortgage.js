@@ -21,6 +21,7 @@ if(choice=="ci")
   {
     document.getElementById('result').innerText= (p*(Math.pow((1+r),n))).toFixed(2);
   }
+  document.getElementById('resultl').innerText= "Interest";
 }
 else
 {
@@ -42,7 +43,8 @@ else
 
 
  var total=Math.round((p*r * Math.pow((1+r),n)/[Math.pow((1+r),n)-1]));
- document.getElementById('result').innerText="EMI    "+ total;
+ document.getElementById('resultl').innerText="EMI    ";
+ document.getElementById('result').innerText= total;
 }
 
 }
