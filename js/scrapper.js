@@ -14,7 +14,7 @@ function load_links() {
             });
       },
         error: function(status) {
-             "Enter valid url"+appendTo($('#links'));
+           alert("Enter valid url");
         }
     });
 }
