@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="../css/mortgage.css">
+    <link rel="stylesheet" href="../css/mortgage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="../js/mortgage.js"></script>
+</head>
+
+<body>
+    <fieldset>
+        <table>
+            <caption>
+                <input id="radio1" type="radio" name="option" checked="checked" value="ci">calculate Interest
+                <input id="radio2" type="radio" name="option" value="cp"> pay off period</caption>
+            <tr>
+                <td>
+                    Enter Principle amount:
+                </td>
+                <td>
+                    <input type="text" id="principle">
+                </td>
+                <tr>
+                    <td>Enter Period:</td>
+                    <td>
+                        <input type="text" id="period">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Enter rate of interest: </td>
+                    <td>
+                        <input type="text" id="rate">
+                    </td>
+                </tr>
+                <tr class="h">
+                    <td>Repayment amount:</td>
+                    <td>
+                        <input type="text" id="repayment">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Choose interest type</td>
+                    <td>
+                        <input type="radio" name="type" value="weekly">weekly
+                        <input type="radio" name="type" value="monthly">monthly
+                        <input type="radio" name="type" value="yearly">yearly
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <label id="result"></label>
+                    </td>
+                </tr>
+        </table>
+        <center>
+            <input type="submit" id="submit" onclick="interest();">
+        </center>
+    </fieldset>
+</body>
+</body>
+
+</html>

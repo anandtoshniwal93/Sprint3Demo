@@ -1,0 +1,321 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+header {
+    -webkit-background-size: cover;
+    background: url("../image/gridlines.png"), url("../image/huntington.jpg") no-repeat;
+    text-align: center;
+    color: white;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 24px;
+}
+
+h3 {
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 28px;
+}
+.zen-resources li a{
+    color: #497466;
+}
+.intro a, .intro a:visited {
+    position: relative;
+    display: inline-block;
+    padding: 1px 5px 1px 15px;
+    margin: -1px 1px -1px 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    color: #809b7e;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+}
+.intro a:hover, .intro a:focus {
+    z-index: 2;
+    color: #fff;
+    background: #3d8a9f;
+    text-decoration: none;
+}
+
+.summary,
+.preamble,
+.supporting {
+    box-sizing: border-box;
+    padding: 0% 5% 0 5%;
+    text-align: justify;
+}
+
+div.participation h3,
+div.benefits h3 {
+    margin-top: 0;
+}
+
+div.participation p,
+div.benefits p {
+    margin-bottom: 0;
+}
+
+div.participation,
+div.benefits {
+    background-color: rgba(138, 188, 159, 0.4);
+    background-image: url("../image/bamboo.png");
+}
+
+div.participation {
+    padding: 48px 0;
+    margin-top: 70px;
+}
+
+div.benefits {
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.design-selection h3,
+.zen-resources h3 {
+    display: none;
+}
+
+div.design-selection nav ul li,
+div.zen-resources ul li {
+    list-style: none;
+}
+
+.design-selection {
+    position: relative;
+}
+
+.design-selection li,
+.zen-resources li {
+     padding: 1.5em 5%;
+    border-top: solid 1px #d9e3dc;
+    color: black;
+    font-style: italic;
+}
+
+.zen-resources li {
+    border-top: solid 1px #a0b9ad;
+    font-style: normal;
+    display: block;
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+}
+
+.design-name {
+    display: block;
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    color: #497466;
+}
+
+.designer-name {
+    color: #616857;
+    font-size: 0.9em;
+    font-style: normal;
+}
+
+.requirements p:last-child {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    background: url("../image/gridlines.png"), url("../image/koi.jpg") no-repeat;
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.3);
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-left: -9%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #799692;
+}
+ #view{
+
+        padding: 1.5% 2% 1.5% 2%;
+        color: white;
+        background: rgba(255, 255, 255, 0.2) 20%;
+        text-decoration: none;
+        margin-top:2%;
+        margin-bottom: 2%;
+
+    }
+
+.requirements p:last-child a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+    .requirements p:last-child {
+        display: none;
+    }
+    h3 {
+        text-align: left;
+    }
+    ul{
+        -webkit-padding-start: 0px;
+    }
+    div#zen-participation div#zen-benefits {
+
+        padding-left: 5%;
+        margin-left: -5%;
+        margin-right: -5%;
+        padding-right: 1%;
+    }
+    body {
+        font-size: 20px;
+    }
+    footer {
+        display: none;
+    }
+    #side li {
+        float: none;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1131px) {
+    .requirements p:last-child {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
+    footer {
+        display: none;
+    }
+    div.participation,
+    div.benefits {
+        padding-left: 6%;
+        margin-left: -6%;
+        margin-right: -6%;
+        padding-right: 6%;
+    }
+    .sidebar li {
+        float: left;
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1132px) {
+    body {
+        background: linear-gradient(to right, #ffffff 0%, #ffffff 66%, #e5ede8 66%, #e5ede8 100%);
+
+    }
+    header {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.0) 66%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.2) 20%), url("../image/gridlines.png"), url("../image/huntington.jpg") no-repeat;
+        z-index: 2;
+        height: 250px;
+
+        background-size: cover;
+    }
+    h1,
+    h2 {
+        margin-right: 400px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 2;
+        font-weight: normal;
+    }
+    #view{
+        top:-40px;
+        margin-left: 64% ;
+    }
+    .summary,
+    .preamble {
+        width: 66%;
+    }
+    .supporting {
+        width: 66%;
+    }
+    .summary,
+    .preamble,
+    .supporting {
+        float: left;
+    }
+    .summary{
+        margin-top:20px;
+    }
+    .wrapper {
+        position: absolute;
+        left: 66%;
+        width: 34%;
+
+    }
+    div.participation,
+    div.benefits {
+        width: 100%;
+        margin-left: 0;
+        padding-right: 69.4%;
+        margin-left: -9%;
+        padding-left: 9%;
+    }
+    .zen-resources {
+
+        margin-top: 270px;
+    }
+    a{
+        color: #0d8ba1;
+        text-decoration: none;
+    }
+    .requirements p:last-child {
+        padding-right: 43.4%;
+        padding-left: 35%;
+        background-size: cover;
+    }
+    footer {
+        width: 100%;
+        color: #fff;
+        background: #134347;
+        margin-left: -9%;
+        padding: 0 43.4% 5% 35%;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'regular', sans-serif;
+
+    }
+    footer a {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        padding: 40px 0 0 0;
+        margin: 0 0.5em;
+        color: rgba(255, 255, 255, 0.5);
+        text-decoration: none;
+    }
+}

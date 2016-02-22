@@ -1,0 +1,44 @@
+
+ html,body{
+  height:100%;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d8e0de+2,aebfbc+19,99afab+29,829d98+41,829d98+41,829d98+45,8ea6a2+50,4e5c5a+68,0e0e0e+100 */
+background: #d8e0de; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #d8e0de 2%, #aebfbc 19%, #99afab 29%, #829d98 41%, #829d98 41%, #829d98 45%, #8ea6a2 50%, #4e5c5a 68%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #d8e0de 2%,#aebfbc 19%,#99afab 29%,#829d98 41%,#829d98 41%,#829d98 45%,#8ea6a2 50%,#4e5c5a 68%,#0e0e0e 100%)no-repeat; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #d8e0de 2%,#aebfbc 19%,#99afab 29%,#829d98 41%,#829d98 41%,#829d98 45%,#8ea6a2 50%,#4e5c5a 68%,#0e0e0e 100%)no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+  text-align: center;
+ }
+#string{
+  width:30%;
+  height: 40px;
+
+ margin-top: 20%;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+ margin-bottom: 30px;
+
+}
+ #btn
+{
+  width: 100px;
+  height: 50px;
+ border-radius: 5px;
+ background-color:#F0ECEC;
+
+}
+#btn :hover{
+    cursor: hand;
+}
+#result{
+  color:white;
+  font-size:25px;
+  padding: 10px;
+}
+
+
+
+
+
+
