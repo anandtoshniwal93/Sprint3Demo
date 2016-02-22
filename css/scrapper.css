@@ -26,10 +26,16 @@ input[type=text]
 #links{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   font-size: 16px;
+  text-align: left;
+  padding: 5%;
 
 
 }
 
+li{
+  margin-left: 30px;
+  padding-bottom: 5px;
+}
 .btn
 {
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -37,4 +43,10 @@ input[type=text]
   height: 35px;
   border-radius: 8px;
   font-size: 15px;
+}
+
+label{
+  font-size: 30px;
+  font-weight:bold;
+  color: white;
 }
