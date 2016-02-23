@@ -12,15 +12,15 @@ function agecalulator()
 
 
    var dob=new Date($('#dob').val());
-
    var dob_month=dob.getMonth();
    var today=new Date();
    var days=((today.getFullYear() - dob.getFullYear())*365.25);
       days += ((today.getMonth()- dob.getMonth())*30.44);
       days +=(today.getDate() - dob.getDate());
   document.getElementById('days').innerText =Math.ceil(days);
-  document.getElementById('hours').innerText=Math.ceil(days)*24;
-   document.getElementById('min').innerText=Math.ceil(days)*24*60;
+  document.getElementById('hours').innerText=today.getHours();
+
+   document.getElementById('min').innerText=today.getMinutes();
  }
  else
  {
