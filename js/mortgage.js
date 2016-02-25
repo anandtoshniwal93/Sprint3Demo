@@ -8,7 +8,7 @@ function interest() {
 
 
         if (period_choice == "weekly") {
-             var ans=p*Math.pow(1 +(r/52),n/25);
+             var ans=p*Math.pow(1 +(r/52),n/52);
             document.getElementById('result').innerText = ans.toFixed(2);
         } else if (period_choice == "monthly") {
           var ans=p*Math.pow(1 +(r/12),n/12);
